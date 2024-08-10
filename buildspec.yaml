@@ -6,7 +6,7 @@ Phases:
       - echo Installing Nginx - echo apt-get install NGINX
       - sudo apt-get update 
       - sudo apt-get install nginx -y 
-  builds:
+  build:
     commands:
       - echo Build started on date
       - cp index.html /var/www/html
