@@ -1,7 +1,7 @@
 version: 0.2
 
 Phases:
-  intall:
+  install:
     commands:
       - echo Installing Nginx - echo apt-get install NGINX
       - sudo apt-get update 
